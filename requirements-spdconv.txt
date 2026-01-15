@@ -1,0 +1,22 @@
+# ===== Core (SPDConv fork of Ultralytics) =====
+# 반드시 baseline과 다른 가상환경에서 사용 권장
+ultralytics @ git+https://github.com/Cateners/yolov8-spd.git
+
+# ===== Config / Utils =====
+pyyaml
+numpy
+pandas
+imagesize
+
+# ===== Image I/O =====
+pillow
+pillow-heif   # HEIC/HEIF support (iPhone images)
+
+# ===== Serialization / Torch compatibility =====
+setuptools>=65.0.0
+dill>=0.3.7
+
+# ===== PoC / UI =====
+streamlit>=1.30.0
+
+openai

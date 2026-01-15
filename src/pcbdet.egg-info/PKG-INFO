@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: pcbdet
+Version: 0.1.0
+Summary: PCB defect detection with YOLOv8 baseline and SPDConv variants.
+Requires-Python: >=3.9

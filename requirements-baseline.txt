@@ -1,0 +1,20 @@
+# ===== Core (YOLOv8 Baseline) =====
+ultralytics==8.0.114
+
+# ===== Config / Utils =====
+pyyaml
+numpy
+pandas
+imagesize
+
+# ===== Image I/O =====
+pillow
+
+# ===== Serialization / Torch compatibility =====
+setuptools>=65.0.0
+dill>=0.3.7
+
+# ===== PoC / UI =====
+streamlit>=1.30.0
+
+openai

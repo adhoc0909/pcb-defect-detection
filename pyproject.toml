@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcbdet"
+version = "0.1.0"
+description = "PCB defect detection with YOLOv8 baseline and SPDConv variants."
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["pcbdet", "pcbdet.data", "pcbdet.models", "pcbdet.eval", "pcbdet.infer", "pcbdet.utils"]
